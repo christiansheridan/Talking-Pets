@@ -4,17 +4,6 @@ import org.junit.Test;
 import org.junit.Assert;
 
 public class PetTest {
-    /*@Test public void speakTestPets(){
-        //Given
-        Pets testPet = new Pets();
-
-        //When
-        String expectedOutput = testPet.speak();
-        String actualOutput = "generic";
-
-        //Then
-        Assert.assertEquals(expectedOutput, actualOutput);
-    }*/
 
     @Test public void speakTestDog(){
         //Given

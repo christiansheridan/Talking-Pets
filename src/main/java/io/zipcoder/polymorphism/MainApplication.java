@@ -27,16 +27,14 @@ public class MainApplication {
         for (i = 0; i < numPets; i++) {
             if (petType[i].toLowerCase().equals("dog")) {
                 Dog doge = new Dog();
-                System.out.println("Dog: " + petName[i] + " " + doge.speak());
+                System.out.println("Dog named " + petName[i] + ": " + doge.speak());
             }if (petType[i].toLowerCase().equals("cat")) {
                 Cat mittens = new Cat();
-                System.out.println("Cat: " + petName[i] + " " + mittens.speak());
+                System.out.println("Cat named " + petName[i] + ": " + mittens.speak());
             }if (petType[i].toLowerCase().equals("bird")) {
                 Bird tweety = new Bird();
-                System.out.println("Dog: " + petName[i] + " " + tweety.speak());
+                System.out.println("Bird named " + petName[i] + ": " + tweety.speak());
             }
-            //System.out.println(petArr[i].getName());
-            //System.out.println(petArr[i].speak());}
         }
     }
 }

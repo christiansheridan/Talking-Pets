@@ -5,11 +5,6 @@ public abstract class Pets {
     String name;
     String type;
 
-    /*
-    public Pets(String petName, String petType){
-        name = petName;
-        type = petType;
-    }*/
 
     public String getType() {
         return type;
